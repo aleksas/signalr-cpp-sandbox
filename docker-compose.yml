@@ -1,0 +1,11 @@
+version: "3.4"
+
+services:
+  sandbox:
+    image: 'signalr-cpp-sandbox:latest'
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: deploy
+    
+
